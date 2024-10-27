@@ -146,7 +146,7 @@ def set_answer_keys(service, form_id, quiz):
 
 service = authenticate()
 
-file = open('file.txt')
+file = open('quiz.txt')
 text = file.read().strip()
 
 quiz = eval(text)
